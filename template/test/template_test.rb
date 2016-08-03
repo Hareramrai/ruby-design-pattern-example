@@ -20,7 +20,6 @@ module Appartment
         "fixtures/glass.txt",
         File.dirname(__FILE__)
       )
-      binding.pry
       capture { Appartment::GlassHouse.new.build }.string.must_include final_result
     end
 

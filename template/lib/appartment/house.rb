@@ -3,11 +3,8 @@ module Appartment
 
     def build
       build_foundation
-      puts "calling pillars"
       build_pillars
-      puts "calling walls"
       build_walls
-      puts "calling Windows"
       build_windows
       puts "House is built."
     end
